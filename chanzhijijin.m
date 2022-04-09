@@ -42,7 +42,7 @@ cpy = cy ./ cmaxy .* 100;
 cpy = cpy.';
 cpr = cr ./ cmaxr .* 100;
 cpr = cpr.';
-
+%+++++
 plot(cpb,'b');
 hold on
 plot(cpg,'g');
