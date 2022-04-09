@@ -29,6 +29,7 @@ for i = 1 : 750 - 25 * timeSpace
     
     j = j + 1;
 end
+
 cmaxb = max(sumb) - min(sumb);
 cmaxg = max(sumg) - min(sumg);
 cmaxy = max(sumy) - min(sumy);
