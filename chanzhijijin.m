@@ -14,6 +14,7 @@ sumy = yr + yg + yb;
 [rr]=xlsread('rgb.xlsx',1,'AH1:AH750');
 [rg]=xlsread('rgb.xlsx',1,'AI1:AI750');
 [rb]=xlsread('rgb.xlsx',1,'AJ1:AJ750');
+
 sumr = rr + rg + rb;
 timeSpace = 10;
 j = 1;
